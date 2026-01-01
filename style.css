@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.app {
+  background: white;
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+li span {
+  flex: 1;
+}
+
+li button {
+  width: auto;
+  margin-left: 5px;
+}
